@@ -19,4 +19,6 @@ public abstract class PageRequest
         set => _pageSize = value > MaxPageSize ? MaxPageSize : value;
     }
     public SortDirection SortDirection { get; set; }
+
+    public string SortingProperty { get; set; }
 }
