@@ -5,6 +5,9 @@ using System.Reflection;
 
 namespace ISTIC.Pagination.Extensions;
 
+/// <summary>
+/// Extensões para paginação.
+/// </summary>
 public static class PaginatorExtensions
 {
     /// <summary>
